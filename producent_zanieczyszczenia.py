@@ -13,7 +13,7 @@ producer = KafkaProducer(
 TOPIC = "pollution"
 
 # --- Pliki z danymi --------------------------------------------------------
-DATA_DIR = Path("/home/jovyan/notebooks/data")
+DATA_DIR = Path("/home/jovyan/notebooks/PROJEKT-RTA/data")
 FILES = {
     "PM10":  "2023_PM10_1g.xlsx",
     "PM2.5": "2023_PM25_1g.xlsx",
