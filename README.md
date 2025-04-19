@@ -7,7 +7,10 @@ na każde z 5 zanieczyszczeń tworzona jest oddzielna tabela sqlowa
 
 z uwag, wydaje mi się że godzina jako 5 sek to trochę za szybko, strasznie to wzystko zapierdziela ale to można ustawić już w kodzie producenta jak się chce
 
-dane, czyli excele z 2023 muszą być w folderze data w postaci /home/jovyan/notebooks/data na tym środowisku jak już się wam odpali
+dane, czyli excele z 2023 muszą być w folderze data w postaci /home/jovyan/notebooks/PROJEKT-RTA/data na tym środowisku jak już się wam odpali, ale jak zrobicie git clone powinno tak być domyślnie
+
+jakby wam rzucał błędem, że nie widzi brokera upewnijcie się że macie adres nie localhost:29092 tylko broker:9092
+
 
 1. Pobrać pliki i rozpakować zipa
 2. W terminalu wpisać (przy tym musi być otwarta apka docker, całość się trochę czasu pobiera): 
